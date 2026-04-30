@@ -14,4 +14,5 @@ jobs:
 
       - name: Build with Maven
         run: mvn package
+        working-directory: Bai10  # Thay 'Bai10' bằng tên thư mục chứa file pom.xml của bạn
 
